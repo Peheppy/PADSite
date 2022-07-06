@@ -1,38 +1,99 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  background-color: #081a15;
+  min-height: 100vh;
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #081a15;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.head-text {
+  position: relative;
+}
+.text-on-image {
+  position: absolute;
+  right: 50%;
+  left: 35%;
+  bottom: 40%;
+  color: #2de2b5;
+  font-size: 50px
+}
+.Sinopse{
+  padding-left: 345px;
+  text-align: center;
+  color: #2de2b5;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+  max-width: 650px;
+}
+.head
+{
+  text-align: center;
+  font-size: 30px;
+  color: #0dbe57;
+}
+.Historia
+{
+  padding-left: 345px;
+  text-align: center;
+  color: #2de2b5;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+  max-width: 650px;
+}
+.Personagem1
+{
+  padding-left: 420px;
+  text-align: center;
+  color: #2de2b5;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+  max-width: 500px;
+  
+}
+.Personagem2
+{
+  padding-left: 420px;
+  text-align: center;
+  color: #2de2b5;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+  max-width: 500px;
+}
+.Jogabilidade
+{
+  padding-left: 345px;
+  text-align: center;
+  color: #2de2b5;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+  max-width: 650px;
+
+}
+.img-home 
+{
+  height: 600px;
+  width: 100vw;
+}
+.img-conteudo
+{
+  width:500px;
+  height:300px;
+}
+h2
+{
+  font-size: 40px;
+  color: #7ae9a8;
 }
